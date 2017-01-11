@@ -1,0 +1,19 @@
+{
+  "name": "test-proxy",
+  "version": "0.0.1",
+  "description": "Test environment for my practicing a nodejs reverse-proxy",
+  "private": true,
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
+  "dependencies": {
+    "http-master": "latest"
+  },
+  "main": "reverse-proxy.js",
+  "scripts": {
+    "start": "node reverse-proxy.js"
+  },
+  "author": "Tyler Bauer",
+  "license": "ISC"
+}
